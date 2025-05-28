@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: tipjs-course
+  datasource:
+    url: jdbc:postgresql://ep-fancy-cherry-a19ahwhy-pooler.ap-southeast-1.aws.neon.tech/zentrix
+    username: zentrix_owner
+    password: npg_rElf5RCGH1Ts
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+
+server:
+  port: 8080
+
