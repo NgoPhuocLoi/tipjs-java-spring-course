@@ -2,9 +2,9 @@ spring:
   application:
     name: tipjs-course
   datasource:
-    url: jdbc:postgresql://ep-fancy-cherry-a19ahwhy-pooler.ap-southeast-1.aws.neon.tech/zentrix
-    username: zentrix_owner
-    password: npg_rElf5RCGH1Ts
+    url: jdbc:...
+    username: <username>
+    password: <password>
   jpa:
     show-sql: true
     hibernate:
